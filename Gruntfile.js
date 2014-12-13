@@ -1,10 +1,60 @@
 var spec = require('./lib/spec')
+var Biome = require('./lib/biome')
 var prompt = require('prompt')
 prompt.start()
 
 var modPath = '../../server_mods/com.wondible.pa.peppermint_planet/'
 var stream = 'stable'
 var media = require('./lib/path').media(stream)
+
+var terrain = function(biome, lava, ice) {
+  biome.addLayer({
+    "noise": {
+      "ring_latitude_period": 0,
+      "ring_longitude_peroid": 400,
+      "ring_twist": 3,
+      "type": "ring"
+    }
+  })
+
+  biome.apply(ice.decals[0], [0.0, 0.2])
+  biome.apply(ice.decals[1], [0.1, 0.4])
+  biome.apply(ice.decals[2], [0.0, 0.4])
+  biome.apply(ice.decals[3], [0.0, 0.4])
+  biome.apply(ice.decals[4], [0.0, 0.4])
+
+  for (var l = 0;l <= 5;l++) {
+    biome.apply(lava.decals[l], [0.6, 1.0])
+  }
+
+  var brushLayer = biome.addLayer({inherit_noise: true})
+  for (l = 0;l < 11;l++) {
+    biome.place(lava.brushes[l], [0.7, 1.0], brushLayer)
+  }
+
+  biome.drop({
+    "feature_spec": "/pa/features/tree/tree.json", 
+    "noise_range": [0.0, 0.1],
+    "cluster_count_range": [ 0, 1 ], 
+    "cluster_size": 15, 
+  })
+}
+
+var metal = function(biome) {
+  biome.drop({
+    "feature_spec": "/pa/effects/features/metal_splat_02.json", 
+    "noise_range": [0.0, 0.004],
+    "cluster_count_range": [ 0, 1 ], 
+    "cluster_size": 1, 
+  })
+  biome.drop({
+    "feature_spec": "/pa/effects/features/metal_splat_02.json", 
+    "noise_range": [0.4, 0.6],
+    "cluster_count_range": [ 0, 1 ], 
+    "cluster_size": 15, 
+    "pole_distance_range": [0, 200],
+  })
+}
 
 module.exports = function(grunt) {
   // Project configuration.
@@ -98,99 +148,10 @@ module.exports = function(grunt) {
         cwd: media,
         dest: 'pa/terrain/peppermint/peppermint.json',
         process: function(lava, ice) {
-          var spec = JSON.parse(JSON.stringify(lava))
-          spec.name = 'peppermint'
-
-          spec.layers = [
-            {
-              "disable": true, 
-              "note": "0"
-            }, 
-            {
-              "noise": {
-                "ring_latitude_period": 0,
-                "ring_longitude_peroid": 400,
-                "ring_twist": 3,
-                "type": "ring"
-              }, 
-              "note": "1"
-            },
-          ]
-
-
-          spec.decals = []
-          var apply = function(decal, noise) {
-            spec.decals.push(decal)
-            var layer = spec.layers.length
-            spec.layers.push({inherit_noise: true, note: layer.toString()})
-            if (decal.pos_range[0] > 1) {
-              decal.pos_range = [1,1]
-            }
-            decal.layer = layer
-            decal.noise_range = noise
-            delete decal.biome_distance_range
-          }
-          apply(ice.decals[0], [0.0, 0.2])
-          apply(ice.decals[1], [0.1, 0.4])
-          apply(ice.decals[2], [0.0, 0.4])
-          apply(ice.decals[3], [0.0, 0.4])
-          apply(ice.decals[4], [0.0, 0.4])
-
-          for (var l = 0;l <= 5;l++) {
-            apply(lava.decals[l], [0.6, 1.0])
-          }
-
-          spec.brushes = []
-          var brushLayer = spec.layers.length
-          spec.layers.push({inherit_noise: true, note: brushLayer.toString()})
-          var place = function(brush, noise) {
-            spec.brushes.push(brush)
-            brush.layer = brushLayer
-            brush.noise_range = noise
-            brush.weight = 1
-            brush.weight_scale = 1
-            brush.elevation_range = [-1, 1]
-            brush.pole_distance_range = [200, null]
-            delete brush.weight_hard
-            delete brush.biome_distance_range
-          }
-
-          for (l = 0;l < 11;l++) {
-            place(lava.brushes[l], [0.7, 1.0])
-          }
-
-          spec.features = []
-          var featureLayer = spec.layers.length
-          spec.layers.push({inherit_noise: true, note: featureLayer.toString()})
-          var drop = function(feature, noise) {
-            spec.features.push(feature)
-            feature.layer = featureLayer
-            feature.elevation_range = [-1, 1]
-          }
-
-          drop({
-            "feature_spec": "/pa/effects/features/metal_splat_02.json", 
-            "noise_range": [0.0, 0.004],
-            "cluster_count_range": [ 0, 1 ], 
-            "cluster_size": 1, 
-          })
-          drop({
-            "feature_spec": "/pa/effects/features/metal_splat_02.json", 
-            "noise_range": [0.4, 0.6],
-            "cluster_count_range": [ 0, 1 ], 
-            "cluster_size": 15, 
-            "pole_distance_range": [0, 200],
-          })
-
-
-          drop({
-            "feature_spec": "/pa/features/tree/tree.json", 
-            "noise_range": [0.0, 0.1],
-            "cluster_count_range": [ 0, 1 ], 
-            "cluster_size": 15, 
-          })
-
-          return spec
+          var biome = new Biome(lava, 'peppermint')
+          terrain(biome, lava, ice)
+          metal(biome)
+          return biome.spec
         }
       }
     }
