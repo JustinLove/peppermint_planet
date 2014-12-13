@@ -70,6 +70,10 @@
     {
       "inherit_noise": true,
       "note": "13"
+    },
+    {
+      "inherit_noise": true,
+      "note": "14"
     }
   ],
   "brushes": [
@@ -98,7 +102,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -127,7 +131,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -156,7 +160,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -185,7 +189,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -214,7 +218,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -243,7 +247,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -272,7 +276,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -301,7 +305,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -330,7 +334,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -359,7 +363,7 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     },
@@ -388,12 +392,36 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        100,
+        200,
         null
       ]
     }
   ],
-  "features": [],
+  "features": [
+    {
+      "cluster_count_range": [
+        1,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/effects/features/metal_splat_02.json",
+      "op": "BO_Add",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer": 14,
+      "noise_range": [
+        0,
+        0.005
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ]
+    }
+  ],
   "decals": [
     {
       "layer": 2,

@@ -150,7 +150,7 @@ module.exports = function(grunt) {
             brush.weight = 0.8
             brush.weight_scale = 1
             brush.elevation_range = [-1, 1]
-            brush.pole_distance_range = [100, null]
+            brush.pole_distance_range = [200, null]
             delete brush.weight_hard
             delete brush.biome_distance_range
           }
@@ -160,6 +160,25 @@ module.exports = function(grunt) {
           }
 
           spec.features = []
+          var featureLayer = spec.layers.length
+          spec.layers.push({inherit_noise: true, note: featureLayer.toString()})
+          var drop = function(feature, noise) {
+            spec.features.push(feature)
+            feature.layer = featureLayer
+            feature.noise_range = noise
+            feature.elevation_range = [-1, 1]
+            delete feature.biome_distance_range
+          }
+
+          var metal = {
+            "cluster_count_range": [ 1, 1 ], 
+            "cluster_size": 5, 
+            "feature_spec": "/pa/effects/features/metal_splat_02.json", 
+            "op": "BO_Add", 
+            "scale": [ 1.0, 1.0, 1.0 ]
+          }
+          drop(metal, [0.0, 0.005])
+
           return spec
         }
       }
