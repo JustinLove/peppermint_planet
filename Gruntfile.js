@@ -147,7 +147,7 @@ module.exports = function(grunt) {
             spec.brushes.push(brush)
             brush.layer = brushLayer
             brush.noise_range = noise
-            brush.weight = 0.8
+            brush.weight = 1
             brush.weight_scale = 1
             brush.elevation_range = [-1, 1]
             brush.pole_distance_range = [200, null]
@@ -165,19 +165,30 @@ module.exports = function(grunt) {
           var drop = function(feature, noise) {
             spec.features.push(feature)
             feature.layer = featureLayer
-            feature.noise_range = noise
             feature.elevation_range = [-1, 1]
-            delete feature.biome_distance_range
           }
 
-          var metal = {
-            "cluster_count_range": [ 1, 1 ], 
-            "cluster_size": 5, 
+          drop({
             "feature_spec": "/pa/effects/features/metal_splat_02.json", 
-            "op": "BO_Add", 
-            "scale": [ 1.0, 1.0, 1.0 ]
-          }
-          drop(metal, [0.0, 0.005])
+            "noise_range": [0.0, 0.004],
+            "cluster_count_range": [ 0, 1 ], 
+            "cluster_size": 1, 
+          })
+          drop({
+            "feature_spec": "/pa/effects/features/metal_splat_02.json", 
+            "noise_range": [0.4, 0.6],
+            "cluster_count_range": [ 0, 1 ], 
+            "cluster_size": 15, 
+            "pole_distance_range": [0, 200],
+          })
+
+
+          drop({
+            "feature_spec": "/pa/features/tree/tree.json", 
+            "noise_range": [0.0, 0.1],
+            "cluster_count_range": [ 0, 1 ], 
+            "cluster_size": 15, 
+          })
 
           return spec
         }

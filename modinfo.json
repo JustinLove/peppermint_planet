@@ -7,7 +7,7 @@
   "description": "A red and white striped biome type.  A separate server mod is required to play.",
   "display_name": "Peppermint Planet",
   "forum": null,
-  "identifier": "com.wondible.pa.peppermint_planet",
+  "identifier": "com.wondible.pa.peppermint_planet.client",
   "scenes": {
     "system_editor": [
       "coui://ui/mods/peppermint_planet/system_editor.js"

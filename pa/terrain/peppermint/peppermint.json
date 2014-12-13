@@ -79,7 +79,7 @@
   "brushes": [
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -108,7 +108,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -137,7 +137,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -166,7 +166,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -195,7 +195,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -224,7 +224,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -253,7 +253,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -282,7 +282,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -311,7 +311,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -340,7 +340,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -369,7 +369,7 @@
     },
     {
       "layer": 13,
-      "weight": 0.8,
+      "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
       "sample_scale": 1,
@@ -399,23 +399,55 @@
   ],
   "features": [
     {
-      "cluster_count_range": [
-        1,
-        1
-      ],
-      "cluster_size": 5,
       "feature_spec": "/pa/effects/features/metal_splat_02.json",
-      "op": "BO_Add",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "layer": 14,
       "noise_range": [
         0,
-        0.005
+        0.004
       ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 1,
+      "layer": 14,
+      "elevation_range": [
+        -1,
+        1
+      ]
+    },
+    {
+      "feature_spec": "/pa/effects/features/metal_splat_02.json",
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "pole_distance_range": [
+        0,
+        200
+      ],
+      "layer": 14,
+      "elevation_range": [
+        -1,
+        1
+      ]
+    },
+    {
+      "feature_spec": "/pa/features/tree/tree.json",
+      "noise_range": [
+        0,
+        0.1
+      ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "layer": 14,
       "elevation_range": [
         -1,
         1
