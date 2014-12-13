@@ -78,7 +78,6 @@ module.exports = function(grunt) {
           spec.name = 'peppermint'
           delete spec.enable_lava
           spec.biomes[0].spec = "/pa/terrain/peppermint/peppermint.json"
-          /*
           spec.water = {
             "shader": "planet_liquid_transparent", 
             "textures": {
@@ -88,7 +87,6 @@ module.exports = function(grunt) {
               "NormalTexture": "/pa/effects/textures/water_normal.papa"
             }
           }
-          */
           return spec
         }
       },
@@ -112,7 +110,7 @@ module.exports = function(grunt) {
               "noise": {
                 "ring_latitude_period": 0,
                 "ring_longitude_peroid": 400,
-                "ring_twist": 1,
+                "ring_twist": 3,
                 "type": "ring"
               }, 
               "note": "1"
@@ -125,6 +123,9 @@ module.exports = function(grunt) {
             spec.decals.push(decal)
             var layer = spec.layers.length
             spec.layers.push({inherit_noise: true, note: layer.toString()})
+            if (decal.pos_range[0] > 1) {
+              decal.pos_range = [1,1]
+            }
             decal.layer = layer
             decal.noise_range = noise
             delete decal.biome_distance_range
@@ -139,8 +140,26 @@ module.exports = function(grunt) {
             apply(lava.decals[l], [0.6, 1.0])
           }
 
-          spec.features = []
           spec.brushes = []
+          var brushLayer = spec.layers.length
+          spec.layers.push({inherit_noise: true, note: brushLayer.toString()})
+          var place = function(brush, noise) {
+            spec.brushes.push(brush)
+            brush.layer = brushLayer
+            brush.noise_range = noise
+            brush.weight = 0.8
+            brush.weight_scale = 1
+            brush.elevation_range = [-1, 1]
+            brush.pole_distance_range = [100, null]
+            delete brush.weight_hard
+            delete brush.biome_distance_range
+          }
+
+          for (l = 0;l < 11;l++) {
+            place(lava.brushes[l], [0.7, 1.0])
+          }
+
+          spec.features = []
           return spec
         }
       }

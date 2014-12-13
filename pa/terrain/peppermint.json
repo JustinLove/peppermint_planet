@@ -77,5 +77,14 @@
         0.3
       ]
     }
+  },
+  "water": {
+    "shader": "planet_liquid_transparent",
+    "textures": {
+      "DepthColorTexture": "/pa/effects/textures/water_depth_diffuse.papa",
+      "DiffuseTexture": "/pa/effects/textures/water_diffuse.papa",
+      "NoiseTexture": "/pa/effects/textures/CloudNoise.papa",
+      "NormalTexture": "/pa/effects/textures/water_normal.papa"
+    }
   }
 }

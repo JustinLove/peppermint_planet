@@ -18,7 +18,7 @@
       "noise": {
         "ring_latitude_period": 0,
         "ring_longitude_peroid": 400,
-        "ring_twist": 1,
+        "ring_twist": 3,
         "type": "ring"
       },
       "note": "1"
@@ -66,9 +66,333 @@
     {
       "inherit_noise": true,
       "note": "12"
+    },
+    {
+      "inherit_noise": true,
+      "note": "13"
     }
   ],
-  "brushes": [],
+  "brushes": [
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_01.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_02.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_03.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_05.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_07.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_08.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_04.json",
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ],
+      "scale_variation": 0.2,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    },
+    {
+      "layer": 13,
+      "weight": 0.8,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.7,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_05.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.2,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        100,
+        null
+      ]
+    }
+  ],
   "features": [],
   "decals": [
     {
@@ -329,8 +653,8 @@
         1
       ],
       "pos_range": [
-        25,
-        25
+        1,
+        1
       ],
       "elevation_range": [
         0.2,
