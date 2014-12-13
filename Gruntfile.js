@@ -127,7 +127,11 @@ module.exports = function(grunt) {
         process: function(spec) {
           spec.name = 'peppermint'
           delete spec.enable_lava
+          spec.biomes[1] = JSON.parse(JSON.stringify(spec.biomes[0]))
           spec.biomes[0].spec = "/pa/terrain/peppermint/peppermint.json"
+          spec.biomes[0].temperature = [-1, 0, 1]
+          spec.biomes[1].spec = "/pa/terrain/peppermint/peppermint_spice.json"
+          spec.biomes[1].temperature = [0, 1, 1]
           spec.water = {
             "shader": "planet_liquid_transparent", 
             "textures": {
@@ -140,7 +144,7 @@ module.exports = function(grunt) {
           return spec
         }
       },
-      biome: {
+      peppermint: {
         src: [
           'pa/terrain/lava/lava.json',
           'pa/terrain/ice/ice.json'
@@ -149,6 +153,19 @@ module.exports = function(grunt) {
         dest: 'pa/terrain/peppermint/peppermint.json',
         process: function(lava, ice) {
           var biome = new Biome(lava, 'peppermint')
+          terrain(biome, lava, ice)
+          return biome.spec
+        }
+      },
+      peppermint_spice: {
+        src: [
+          'pa/terrain/lava/lava.json',
+          'pa/terrain/ice/ice.json'
+        ],
+        cwd: media,
+        dest: 'pa/terrain/peppermint/peppermint_spice.json',
+        process: function(lava, ice) {
+          var biome = new Biome(lava, 'peppermint_spice')
           terrain(biome, lava, ice)
           metal(biome)
           return biome.spec

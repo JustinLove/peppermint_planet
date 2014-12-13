@@ -1,5 +1,5 @@
 {
-  "name": "peppermint",
+  "name": "peppermint_spice",
   "color": [
     0.27,
     0.267,
@@ -74,6 +74,14 @@
     {
       "inherit_noise": true,
       "note": "14"
+    },
+    {
+      "inherit_noise": true,
+      "note": "15"
+    },
+    {
+      "inherit_noise": true,
+      "note": "16"
     }
   ],
   "brushes": [
@@ -410,6 +418,36 @@
       ],
       "cluster_size": 15,
       "layer": 14
+    },
+    {
+      "feature_spec": "/pa/effects/features/metal_splat_02.json",
+      "noise_range": [
+        0,
+        0.004
+      ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 1,
+      "layer": 15
+    },
+    {
+      "feature_spec": "/pa/effects/features/metal_splat_02.json",
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "pole_distance_range": [
+        0,
+        200
+      ],
+      "layer": 16
     }
   ],
   "decals": [
