@@ -7,34 +7,41 @@ var modPath = '../../server_mods/com.wondible.pa.peppermint_planet/'
 var stream = 'stable'
 var media = require('./lib/path').media(stream)
 
-var terrain = function(biome, lava, ice) {
+var terrain = function(biome, lava, ice, period, twist) {
+  var line = function(d) {
+    return Math.cos(2*Math.PI*d/period)/2 + 0.5
+  }
+
+  var barrier = 70
+
   biome.addLayer({
     "noise": {
       "ring_latitude_period": 0,
-      "ring_longitude_peroid": 400,
-      "ring_twist": 3,
+      "ring_longitude_peroid": period,
+      "ring_twist": twist,
       "type": "ring"
     }
   })
 
-  biome.apply(ice.decals[0], [0.0, 0.2])
-  biome.apply(ice.decals[1], [0.1, 0.4])
-  biome.apply(ice.decals[2], [0.0, 0.4])
-  biome.apply(ice.decals[3], [0.0, 0.4])
-  biome.apply(ice.decals[4], [0.0, 0.4])
+  biome.apply(ice.decals[0], [0.0, line(barrier+10)])
+  biome.apply(ice.decals[1], [line(barrier+30), line(barrier+20)])
+  biome.apply(ice.decals[2], [0.0, line(barrier+10)])
+  biome.apply(ice.decals[3], [0.0, line(barrier+10)])
+  biome.apply(ice.decals[4], [0.0, line(barrier+10)])
 
   for (var l = 0;l <= 5;l++) {
-    biome.apply(lava.decals[l], [0.6, 1.0])
+    biome.apply(lava.decals[l], [line(barrier-10), 1.0])
   }
 
   var brushLayer = biome.addLayer({inherit_noise: true})
   for (l = 0;l < 11;l++) {
-    biome.place(lava.brushes[l], [0.7, 1.0], brushLayer)
+    lava.brushes[l].pole_distance_range = [period/2, null]
+    biome.place(lava.brushes[l], [line(barrier-20), 1.0], brushLayer)
   }
 
   biome.drop({
     "feature_spec": "/pa/features/tree/tree.json", 
-    "noise_range": [0.0, 0.1],
+    "noise_range": [0.0, line(barrier+40)],
     "cluster_count_range": [ 0, 1 ], 
     "cluster_size": 15, 
   })
@@ -153,7 +160,16 @@ module.exports = function(grunt) {
         dest: 'pa/terrain/peppermint/peppermint.json',
         process: function(lava, ice) {
           var biome = new Biome(lava, 'peppermint')
-          terrain(biome, lava, ice)
+          biome.planet_size_range = [0, 200]
+          terrain(biome, lava, ice, 300, 1)
+          biome.planet_size_range = [200, 400]
+          terrain(biome, lava, ice, 350, 2)
+          biome.planet_size_range = [400, 600]
+          terrain(biome, lava, ice, 400, 3)
+          biome.planet_size_range = [600, 800]
+          terrain(biome, lava, ice, 450, 4)
+          biome.planet_size_range = [800, null]
+          terrain(biome, lava, ice, 500, 5)
           return biome.spec
         }
       },
@@ -166,7 +182,20 @@ module.exports = function(grunt) {
         dest: 'pa/terrain/peppermint/peppermint_spice.json',
         process: function(lava, ice) {
           var biome = new Biome(lava, 'peppermint_spice')
-          terrain(biome, lava, ice)
+          biome.planet_size_range = [0, 200]
+          terrain(biome, lava, ice, 300, 1)
+          metal(biome)
+          biome.planet_size_range = [200, 400]
+          terrain(biome, lava, ice, 350, 2)
+          metal(biome)
+          biome.planet_size_range = [400, 600]
+          terrain(biome, lava, ice, 400, 3)
+          metal(biome)
+          biome.planet_size_range = [600, 800]
+          terrain(biome, lava, ice, 450, 4)
+          metal(biome)
+          biome.planet_size_range = [800, null]
+          terrain(biome, lava, ice, 500, 5)
           metal(biome)
           return biome.spec
         }
