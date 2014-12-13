@@ -35,7 +35,7 @@ var terrain = function(biome, lava, ice, period, twist) {
 
   var brushLayer = biome.addLayer({inherit_noise: true})
   for (l = 0;l < 11;l++) {
-    lava.brushes[l].pole_distance_range = [period/2, null]
+    lava.brushes[l].pole_distance_range = [period/1.9-50, null]
     biome.place(lava.brushes[l], [line(barrier-20), 1.0], brushLayer)
   }
 
@@ -167,9 +167,12 @@ module.exports = function(grunt) {
           biome.planet_size_range = [400, 600]
           terrain(biome, lava, ice, 400, 3)
           biome.planet_size_range = [600, 800]
-          terrain(biome, lava, ice, 450, 4)
-          biome.planet_size_range = [800, null]
-          terrain(biome, lava, ice, 500, 5)
+          terrain(biome, lava, ice, 500, 4)
+          biome.planet_size_range = [800, 1000]
+          terrain(biome, lava, ice, 600, 5)
+          biome.planet_size_range = [1000, null]
+          terrain(biome, lava, ice, 800, 6)
+          metal(biome)
           return biome.spec
         }
       },
@@ -192,10 +195,13 @@ module.exports = function(grunt) {
           terrain(biome, lava, ice, 400, 3)
           metal(biome)
           biome.planet_size_range = [600, 800]
-          terrain(biome, lava, ice, 450, 4)
+          terrain(biome, lava, ice, 500, 4)
           metal(biome)
-          biome.planet_size_range = [800, null]
-          terrain(biome, lava, ice, 500, 5)
+          biome.planet_size_range = [800, 1000]
+          terrain(biome, lava, ice, 600, 5)
+          metal(biome)
+          biome.planet_size_range = [1000, null]
+          terrain(biome, lava, ice, 800, 6)
           metal(biome)
           return biome.spec
         }

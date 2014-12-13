@@ -224,7 +224,7 @@
     {
       "noise": {
         "ring_latitude_period": 0,
-        "ring_longitude_peroid": 450,
+        "ring_longitude_peroid": 500,
         "ring_twist": 4,
         "type": "ring"
       },
@@ -293,7 +293,7 @@
     {
       "noise": {
         "ring_latitude_period": 0,
-        "ring_longitude_peroid": 500,
+        "ring_longitude_peroid": 600,
         "ring_twist": 5,
         "type": "ring"
       },
@@ -358,6 +358,75 @@
     {
       "inherit_noise": true,
       "note": "80"
+    },
+    {
+      "noise": {
+        "ring_latitude_period": 0,
+        "ring_longitude_peroid": 800,
+        "ring_twist": 6,
+        "type": "ring"
+      },
+      "note": "81"
+    },
+    {
+      "inherit_noise": true,
+      "note": "82"
+    },
+    {
+      "inherit_noise": true,
+      "note": "83"
+    },
+    {
+      "inherit_noise": true,
+      "note": "84"
+    },
+    {
+      "inherit_noise": true,
+      "note": "85"
+    },
+    {
+      "inherit_noise": true,
+      "note": "86"
+    },
+    {
+      "inherit_noise": true,
+      "note": "87"
+    },
+    {
+      "inherit_noise": true,
+      "note": "88"
+    },
+    {
+      "inherit_noise": true,
+      "note": "89"
+    },
+    {
+      "inherit_noise": true,
+      "note": "90"
+    },
+    {
+      "inherit_noise": true,
+      "note": "91"
+    },
+    {
+      "inherit_noise": true,
+      "note": "92"
+    },
+    {
+      "inherit_noise": true,
+      "note": "93"
+    },
+    {
+      "inherit_noise": true,
+      "note": "94"
+    },
+    {
+      "inherit_noise": true,
+      "note": "95"
+    },
+    {
+      "inherit_noise": true,
+      "note": "96"
     }
   ],
   "brushes": [
@@ -386,7 +455,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -419,7 +488,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -452,7 +521,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -485,7 +554,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -518,7 +587,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -551,7 +620,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -584,7 +653,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -617,7 +686,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -650,7 +719,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -683,7 +752,7 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -716,7 +785,7 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        150,
+        107.89473684210526,
         null
       ],
       "planet_size_range": [
@@ -749,7 +818,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -782,7 +851,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -815,7 +884,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -848,7 +917,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -881,7 +950,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -914,7 +983,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -947,7 +1016,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -980,7 +1049,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -1013,7 +1082,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -1046,7 +1115,7 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -1079,7 +1148,7 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        175,
+        134.21052631578948,
         null
       ],
       "planet_size_range": [
@@ -1112,7 +1181,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1145,7 +1214,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1178,7 +1247,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1211,7 +1280,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1244,7 +1313,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1277,7 +1346,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1310,7 +1379,7 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1343,7 +1412,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1376,7 +1445,7 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1409,7 +1478,7 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1442,7 +1511,7 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        200,
+        160.5263157894737,
         null
       ],
       "planet_size_range": [
@@ -1452,369 +1521,6 @@
     },
     {
       "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_01.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.1,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_02.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.25,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_03.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.1,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.1,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_05.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.1,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.1,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_07.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.1,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_08.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.25,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.25,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_04.json",
-      "scale": [
-        0.85,
-        0.85,
-        0.85
-      ],
-      "scale_variation": 0.2,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 61,
-      "weight": 1,
-      "weight_scale": 1,
-      "threshold": 1,
-      "sample_scale": 1,
-      "bias": 20,
-      "noise_range": [
-        0.883022221559489,
-        1
-      ],
-      "elevation_range": [
-        -1,
-        1
-      ],
-      "op": "BO_Add",
-      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_05.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.2,
-      "proj": "BP_Bend",
-      "pole_distance_range": [
-        225,
-        null
-      ],
-      "planet_size_range": [
-        600,
-        800
-      ]
-    },
-    {
-      "layer": 77,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -1838,16 +1544,16 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -1871,16 +1577,16 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -1904,16 +1610,16 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -1937,16 +1643,16 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -1970,16 +1676,16 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -2003,16 +1709,16 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -2036,16 +1742,16 @@
       "scale_variation": 0.1,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -2069,16 +1775,16 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -2102,16 +1808,16 @@
       "scale_variation": 0.25,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -2135,16 +1841,16 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
         null
       ],
       "planet_size_range": [
-        800,
-        null
+        600,
+        800
       ]
     },
     {
-      "layer": 77,
+      "layer": 61,
       "weight": 1,
       "weight_scale": 1,
       "threshold": 1,
@@ -2168,11 +1874,737 @@
       "scale_variation": 0.2,
       "proj": "BP_Bend",
       "pole_distance_range": [
-        250,
+        213.15789473684214,
+        null
+      ],
+      "planet_size_range": [
+        600,
+        800
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_01.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
         null
       ],
       "planet_size_range": [
         800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_02.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_03.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_05.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_07.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_08.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_04.json",
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ],
+      "scale_variation": 0.2,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 77,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9330127018922193,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_05.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.2,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        265.7894736842105,
+        null
+      ],
+      "planet_size_range": [
+        800,
+        1000
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_01.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_02.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_03.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_05.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_07.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.1,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_08.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_04.json",
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ],
+      "scale_variation": 0.2,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 93,
+      "weight": 1,
+      "weight_scale": 1,
+      "threshold": 1,
+      "sample_scale": 1,
+      "bias": 20,
+      "noise_range": [
+        0.9619397662556434,
+        1
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "op": "BO_Add",
+      "brush_spec": "/pa/terrain/lava/brushes/lava_volcano_05.json",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.2,
+      "proj": "BP_Bend",
+      "pole_distance_range": [
+        371.0526315789474,
+        null
+      ],
+      "planet_size_range": [
+        1000,
         null
       ]
     }
@@ -2347,7 +2779,7 @@
       "feature_spec": "/pa/features/tree/tree.json",
       "noise_range": [
         0,
-        0.5174497483512505
+        0.5936906572928623
       ],
       "cluster_count_range": [
         0,
@@ -2402,7 +2834,7 @@
       "feature_spec": "/pa/features/tree/tree.json",
       "noise_range": [
         0,
-        0.5936906572928623
+        0.7033683215379001
       ],
       "cluster_count_range": [
         0,
@@ -2412,7 +2844,7 @@
       "layer": 78,
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -2429,7 +2861,7 @@
       "layer": 79,
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -2450,6 +2882,61 @@
       "layer": 80,
       "planet_size_range": [
         800,
+        1000
+      ]
+    },
+    {
+      "feature_spec": "/pa/features/tree/tree.json",
+      "noise_range": [
+        0,
+        0.8247240241650918
+      ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "layer": 94,
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "feature_spec": "/pa/effects/features/metal_splat_02.json",
+      "noise_range": [
+        0,
+        0.004
+      ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 1,
+      "layer": 95,
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "feature_spec": "/pa/effects/features/metal_splat_02.json",
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "pole_distance_range": [
+        0,
+        200
+      ],
+      "layer": 96,
+      "planet_size_range": [
+        1000,
         null
       ]
     }
@@ -3414,7 +3901,7 @@
       "bias": 200,
       "noise_range": [
         0,
-        0.7191855733945387
+        0.7679133974894983
       ],
       "pos_range": [
         0,
@@ -3445,8 +3932,8 @@
       "layer": 51,
       "bias": 200,
       "noise_range": [
-        0.5868240888334653,
-        0.6545084971874737
+        0.6545084971874737,
+        0.7128896457825363
       ],
       "pos_range": [
         0.2,
@@ -3474,7 +3961,7 @@
       "bias": 300,
       "noise_range": [
         0,
-        0.7191855733945387
+        0.7679133974894983
       ],
       "pos_range": [
         0,
@@ -3502,7 +3989,7 @@
       "bias": 300,
       "noise_range": [
         0,
-        0.7191855733945387
+        0.7679133974894983
       ],
       "pos_range": [
         0,
@@ -3530,7 +4017,7 @@
       "bias": 300,
       "noise_range": [
         0,
-        0.7191855733945387
+        0.7679133974894983
       ],
       "pos_range": [
         0,
@@ -3558,7 +4045,7 @@
       "layer": 55,
       "bias": 200,
       "noise_range": [
-        0.8345653031794291,
+        0.8644843137107058,
         1
       ],
       "pos_range": [
@@ -3587,7 +4074,7 @@
       "layer": 56,
       "bias": 200,
       "noise_range": [
-        0.8345653031794291,
+        0.8644843137107058,
         1
       ],
       "pos_range": [
@@ -3616,7 +4103,7 @@
       "layer": 57,
       "bias": 200,
       "noise_range": [
-        0.8345653031794291,
+        0.8644843137107058,
         1
       ],
       "elevation_range": [
@@ -3645,7 +4132,7 @@
       "layer": 58,
       "bias": 200,
       "noise_range": [
-        0.8345653031794291,
+        0.8644843137107058,
         1
       ],
       "elevation_range": [
@@ -3674,7 +4161,7 @@
       "layer": 59,
       "bias": 200,
       "noise_range": [
-        0.8345653031794291,
+        0.8644843137107058,
         1
       ],
       "elevation_range": [
@@ -3703,7 +4190,7 @@
       "layer": 60,
       "bias": 1,
       "noise_range": [
-        0.8345653031794291,
+        0.8644843137107058,
         1
       ],
       "pos_range": [
@@ -3732,7 +4219,7 @@
       "bias": 200,
       "noise_range": [
         0,
-        0.7679133974894983
+        0.8345653031794291
       ],
       "pos_range": [
         0,
@@ -3756,15 +4243,15 @@
       "material_spec": "/pa/terrain/ice/decals/ice_decal_01.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
       "layer": 67,
       "bias": 200,
       "noise_range": [
-        0.6545084971874737,
-        0.7128896457825363
+        0.75,
+        0.7938926261462366
       ],
       "pos_range": [
         0.2,
@@ -3784,7 +4271,7 @@
       "material_spec": "/pa/terrain/ice/decals/ice_decal_02.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3792,7 +4279,7 @@
       "bias": 300,
       "noise_range": [
         0,
-        0.7679133974894983
+        0.8345653031794291
       ],
       "pos_range": [
         0,
@@ -3812,7 +4299,7 @@
       "material_spec": "/pa/terrain/ice/decals/ice_decal_water_01.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3820,7 +4307,7 @@
       "bias": 300,
       "noise_range": [
         0,
-        0.7679133974894983
+        0.8345653031794291
       ],
       "pos_range": [
         0,
@@ -3840,7 +4327,7 @@
       "material_spec": "/pa/terrain/ice/decals/ice_decal_water_02.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3848,7 +4335,7 @@
       "bias": 300,
       "noise_range": [
         0,
-        0.7679133974894983
+        0.8345653031794291
       ],
       "pos_range": [
         0,
@@ -3868,7 +4355,7 @@
       "material_spec": "/pa/terrain/ice/decals/ice_decal_water_03.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3876,7 +4363,7 @@
       "layer": 71,
       "bias": 200,
       "noise_range": [
-        0.8644843137107058,
+        0.9045084971874737,
         1
       ],
       "pos_range": [
@@ -3897,7 +4384,7 @@
       "material_spec": "/pa/terrain/lava/decals/lava_decal_01.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3905,7 +4392,7 @@
       "layer": 72,
       "bias": 200,
       "noise_range": [
-        0.8644843137107058,
+        0.9045084971874737,
         1
       ],
       "pos_range": [
@@ -3926,7 +4413,7 @@
       "material_spec": "/pa/terrain/lava/decals/lava_decal_01.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3934,7 +4421,7 @@
       "layer": 73,
       "bias": 200,
       "noise_range": [
-        0.8644843137107058,
+        0.9045084971874737,
         1
       ],
       "elevation_range": [
@@ -3955,7 +4442,7 @@
       "material_spec": "/pa/terrain/lava/decals/lava_decal_05.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3963,7 +4450,7 @@
       "layer": 74,
       "bias": 200,
       "noise_range": [
-        0.8644843137107058,
+        0.9045084971874737,
         1
       ],
       "elevation_range": [
@@ -3984,7 +4471,7 @@
       "material_spec": "/pa/terrain/lava/decals/lava_decal_07.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -3992,7 +4479,7 @@
       "layer": 75,
       "bias": 200,
       "noise_range": [
-        0.8644843137107058,
+        0.9045084971874737,
         1
       ],
       "elevation_range": [
@@ -4013,7 +4500,7 @@
       "material_spec": "/pa/terrain/lava/decals/lava_decal_07.json",
       "planet_size_range": [
         800,
-        null
+        1000
       ]
     },
     {
@@ -4021,7 +4508,7 @@
       "layer": 76,
       "bias": 1,
       "noise_range": [
-        0.8644843137107058,
+        0.9045084971874737,
         1
       ],
       "pos_range": [
@@ -4042,6 +4529,324 @@
       "material_spec": "/pa/terrain/lava/decals/lava_decal_cracks_04.json",
       "planet_size_range": [
         800,
+        1000
+      ]
+    },
+    {
+      "layer": 82,
+      "bias": 200,
+      "noise_range": [
+        0,
+        0.9045084971874737
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "water_distance_range": [
+        -60,
+        null
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_01.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 83,
+      "bias": 200,
+      "noise_range": [
+        0.8535533905932737,
+        0.8802029828000155
+      ],
+      "pos_range": [
+        0.2,
+        0.2
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0.2,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_02.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 84,
+      "bias": 300,
+      "noise_range": [
+        0,
+        0.9045084971874737
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        -0.08
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_01.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 85,
+      "bias": 300,
+      "noise_range": [
+        0,
+        0.9045084971874737
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        -0.15
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_02.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "layer": 86,
+      "bias": 300,
+      "noise_range": [
+        0,
+        0.9045084971874737
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        -0.2
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_03.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "note": "Midtone ground transition value.",
+      "layer": 87,
+      "bias": 200,
+      "noise_range": [
+        0.9455032620941839,
+        1
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "elevation_range": [
+        0.65,
+        1
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0.2,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_01.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "note": "Midtone ground transition value.",
+      "layer": 88,
+      "bias": 200,
+      "noise_range": [
+        0.9455032620941839,
+        1
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "elevation_range": [
+        0,
+        0.25
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0.2,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_01.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "note": "Opaque lightest ground value.",
+      "layer": 89,
+      "bias": 200,
+      "noise_range": [
+        0.9455032620941839,
+        1
+      ],
+      "elevation_range": [
+        0.225,
+        0.7
+      ],
+      "pos_range": [
+        0,
+        0.5
+      ],
+      "scale": [
+        55,
+        55,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_05.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "note": "Transition Decals. Inner Layer, close to lava.",
+      "layer": 90,
+      "bias": 200,
+      "noise_range": [
+        0.9455032620941839,
+        1
+      ],
+      "elevation_range": [
+        0.16,
+        0.23
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_07.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "note": "Transition Decals. Outer Layer, More Inland.",
+      "layer": 91,
+      "bias": 200,
+      "noise_range": [
+        0.9455032620941839,
+        1
+      ],
+      "elevation_range": [
+        0.7,
+        0.75
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_07.json",
+      "planet_size_range": [
+        1000,
+        null
+      ]
+    },
+    {
+      "note": "Mud cracks.",
+      "layer": 92,
+      "bias": 1,
+      "noise_range": [
+        0.9455032620941839,
+        1
+      ],
+      "pos_range": [
+        1,
+        1
+      ],
+      "elevation_range": [
+        0.2,
+        0.5
+      ],
+      "scale": [
+        80,
+        80,
+        1
+      ],
+      "scale_variation": 0.15,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_cracks_04.json",
+      "planet_size_range": [
+        1000,
         null
       ]
     }
