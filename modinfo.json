@@ -6,7 +6,7 @@
   "date": "2014/12/15",
   "description": "Create a red and white striped biome type.  A separate server mod is required to play.",
   "display_name": "Peppermint Planet",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-client-server-peppermint-planet.66540/",
   "icon": "http://wondible.com/pa/icons/peppermint_planet.png",
   "identifier": "com.wondible.pa.peppermint_planet.client",
   "scenes": {
@@ -15,5 +15,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "1.0.0"
 }

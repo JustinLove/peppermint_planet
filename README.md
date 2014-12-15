@@ -2,7 +2,7 @@
 
 A red and white striped biome type. Snowy white lanes run between the poles, separated by spiraling lava mountains with occasional passes.
 
-The biome generates metal spots near the poles and down the center of each valley.  The distribution isn't great. Metal spots are controlled by the temperature slider; turn it down if you planet to apply classic or manual metal.
+The biome generates metal spots near the poles and down the center of each valley.  The distribution isn't great. Metal spots are controlled by the temperature slider; turn it down if you plan to apply classic or manual metal.
 
 The planet supports water (why not), but we have no control over the height field.
 
