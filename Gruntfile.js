@@ -8,11 +8,10 @@ var stream = 'stable'
 var media = require('./lib/path').media(stream)
 
 var terrain = function(biome, lava, ice, period, twist) {
-  var line = function(d) {
-    return Math.cos(2*Math.PI*d/period)/2 + 0.5
+  var threshold = 70
+  var border = function(d) {
+    return Math.cos(2*Math.PI*(threshold+d)/period)/2 + 0.5
   }
-
-  var barrier = 70
 
   biome.addLayer({
     "noise": {
@@ -23,34 +22,37 @@ var terrain = function(biome, lava, ice, period, twist) {
     }
   })
 
-  biome.apply(ice.decals[0], [0.0, line(barrier+10)])
-  biome.apply(ice.decals[1], [line(barrier+30), line(barrier+20)])
-  biome.apply(ice.decals[2], [0.0, line(barrier+10)])
-  biome.apply(ice.decals[3], [0.0, line(barrier+10)])
-  biome.apply(ice.decals[4], [0.0, line(barrier+10)])
+  biome.apply(ice.decals[0], [0.0, border(+10)])
+  biome.apply(ice.decals[1], [border(+30), border(+20)])
+  biome.apply(ice.decals[2], [0.0, border(+10)])
+  biome.apply(ice.decals[3], [0.0, border(+10)])
+  biome.apply(ice.decals[4], [0.0, border(+10)])
 
   for (var l = 0;l <= 5;l++) {
-    biome.apply(lava.decals[l], [line(barrier-10), 1.0])
+    biome.apply(lava.decals[l], [border(-10), 1.0])
   }
 
   var brushLayer = biome.addLayer({inherit_noise: true})
   for (l = 0;l < 11;l++) {
     lava.brushes[l].pole_distance_range = [period/1.9-50, null]
-    biome.place(lava.brushes[l], [line(barrier-20), 1.0], brushLayer)
+    biome.place(lava.brushes[l], [border(-20), 1.0], brushLayer)
   }
 
   biome.drop({
     "feature_spec": "/pa/features/tree/tree.json", 
-    "noise_range": [0.0, line(barrier+40)],
+    "noise_range": [0.0, border(+40)],
     "cluster_count_range": [ 0, 1 ], 
     "cluster_size": 15, 
   })
 }
 
-var metal = function(biome) {
+var metal = function(biome, period) {
+  var valley = function(d) {
+    return 1 - (Math.cos(2*Math.PI*d/period)/2 + 0.5)
+  }
   biome.drop({
     "feature_spec": "/pa/effects/features/metal_splat_02.json", 
-    "noise_range": [0.0, 0.004],
+    "noise_range": [0.0, valley(4)],
     "cluster_count_range": [ 0, 1 ], 
     "cluster_size": 1, 
   })
@@ -172,7 +174,6 @@ module.exports = function(grunt) {
           terrain(biome, lava, ice, 600, 5)
           biome.planet_size_range = [1000, null]
           terrain(biome, lava, ice, 800, 6)
-          metal(biome)
           return biome.spec
         }
       },
@@ -187,22 +188,22 @@ module.exports = function(grunt) {
           var biome = new Biome(lava, 'peppermint_spice')
           biome.planet_size_range = [0, 200]
           terrain(biome, lava, ice, 300, 1)
-          metal(biome)
+          metal(biome, 300)
           biome.planet_size_range = [200, 400]
           terrain(biome, lava, ice, 350, 2)
-          metal(biome)
+          metal(biome, 350)
           biome.planet_size_range = [400, 600]
           terrain(biome, lava, ice, 400, 3)
-          metal(biome)
+          metal(biome, 400)
           biome.planet_size_range = [600, 800]
           terrain(biome, lava, ice, 500, 4)
-          metal(biome)
+          metal(biome, 500)
           biome.planet_size_range = [800, 1000]
           terrain(biome, lava, ice, 600, 5)
-          metal(biome)
+          metal(biome, 600)
           biome.planet_size_range = [1000, null]
           terrain(biome, lava, ice, 800, 6)
-          metal(biome)
+          metal(biome, 800)
           return biome.spec
         }
       }

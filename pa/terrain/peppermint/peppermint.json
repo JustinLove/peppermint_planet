@@ -379,14 +379,6 @@
     {
       "inherit_noise": true,
       "note": "84"
-    },
-    {
-      "inherit_noise": true,
-      "note": "85"
-    },
-    {
-      "inherit_noise": true,
-      "note": "86"
     }
   ],
   "brushes": [
@@ -2667,44 +2659,6 @@
       ],
       "cluster_size": 15,
       "layer": 84,
-      "planet_size_range": [
-        1000,
-        null
-      ]
-    },
-    {
-      "feature_spec": "/pa/effects/features/metal_splat_02.json",
-      "noise_range": [
-        0,
-        0.004
-      ],
-      "cluster_count_range": [
-        0,
-        1
-      ],
-      "cluster_size": 1,
-      "layer": 85,
-      "planet_size_range": [
-        1000,
-        null
-      ]
-    },
-    {
-      "feature_spec": "/pa/effects/features/metal_splat_02.json",
-      "noise_range": [
-        0.4,
-        0.6
-      ],
-      "cluster_count_range": [
-        0,
-        1
-      ],
-      "cluster_size": 15,
-      "pole_distance_range": [
-        0,
-        200
-      ],
-      "layer": 86,
       "planet_size_range": [
         1000,
         null

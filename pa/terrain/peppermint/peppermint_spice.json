@@ -2631,7 +2631,7 @@
       "feature_spec": "/pa/effects/features/metal_splat_02.json",
       "noise_range": [
         0,
-        0.004
+        0.001753570375247815
       ],
       "cluster_count_range": [
         0,
@@ -2686,7 +2686,7 @@
       "feature_spec": "/pa/effects/features/metal_splat_02.json",
       "noise_range": [
         0,
-        0.004
+        0.00128853736358292
       ],
       "cluster_count_range": [
         0,
@@ -2741,7 +2741,7 @@
       "feature_spec": "/pa/effects/features/metal_splat_02.json",
       "noise_range": [
         0,
-        0.004
+        0.0009866357858642205
       ],
       "cluster_count_range": [
         0,
@@ -2796,7 +2796,7 @@
       "feature_spec": "/pa/effects/features/metal_splat_02.json",
       "noise_range": [
         0,
-        0.004
+        0.0006315216969912107
       ],
       "cluster_count_range": [
         0,
@@ -2851,7 +2851,7 @@
       "feature_spec": "/pa/effects/features/metal_splat_02.json",
       "noise_range": [
         0,
-        0.004
+        0.0004385849505708084
       ],
       "cluster_count_range": [
         0,
@@ -2906,7 +2906,7 @@
       "feature_spec": "/pa/effects/features/metal_splat_02.json",
       "noise_range": [
         0,
-        0.004
+        0.0002467198171342
       ],
       "cluster_count_range": [
         0,
