@@ -103,7 +103,7 @@ module.exports = function(grunt) {
         options: {
           process: function(content, srcpath) {
             var info = JSON.parse(content)
-            info.description = "A red and white striped biome type. A separate client mod is required to create planets.",
+            info.description = "Play a red and white striped biome type. A separate client mod is required to create planets.",
             info.date = require('dateformat')(new Date(), 'yyyy/mm/dd')
             info.identifier = info.identifier.replace('client', 'server')
             info.context = 'server'
