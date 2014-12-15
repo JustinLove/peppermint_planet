@@ -7,6 +7,7 @@
   "description": "Create a red and white striped biome type.  A separate server mod is required to play.",
   "display_name": "Peppermint Planet",
   "forum": null,
+  "icon": "http://wondible.com/pa/icons/peppermint_planet.png",
   "identifier": "com.wondible.pa.peppermint_planet.client",
   "scenes": {
     "system_editor": [
