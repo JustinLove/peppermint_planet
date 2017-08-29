@@ -3,7 +3,7 @@ var Biome = require('./lib/biome')
 var prompt = require('prompt')
 prompt.start()
 
-var modPath = '../../server_mods/com.wondible.pa.peppermint_planet/'
+var modPath = '../../server_mods/com.wondible.pa.peppermint_planet.server/'
 var stream = 'stable'
 var media = require('./lib/path').media(stream)
 
@@ -107,7 +107,8 @@ module.exports = function(grunt) {
             info.date = require('dateformat')(new Date(), 'yyyy/mm/dd')
             info.identifier = info.identifier.replace('client', 'server')
             info.context = 'server'
-            info.category = ['', 'biome']
+            info.category = ['biome']
+            info.companions = ["com.wondible.pa.peppermint_planet.client"]
             delete(info.scenes)
             delete(info.priority)
             console.log(info.identifier, info.version, info.date)
