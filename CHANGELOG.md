@@ -1,5 +1,9 @@
 # Peppermint Planet
 
+## 1.1.1
+
+- Reissue zips to remove unaccountable build.js in server mod
+
 ## 1.1.0
 
 - Add companions to server mod to see if it will fix lobby joining issues
